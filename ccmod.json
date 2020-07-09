@@ -1,0 +1,11 @@
+{
+	"id": "item-api",
+	"description": "Allows custom items to be prepared in such a way that they 'just work'",
+	"homepage": "https://github.com/CCDirectLink/item-api",
+	"version": "0.2.1",
+	"ccmodDependencies": {
+		"templating-api": "^0.*"
+	},
+	"postload": "postload.js",
+	"prestart": "prestart.js"
+}
